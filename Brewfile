@@ -38,7 +38,7 @@ cask install mysqlworkbench || true
 cask install sequel-pro || true
 cask install firefox || true
 cask install google-chrome || true
-cask install yorufukurou || true
+#cask install yorufukurou || true
 cask install kobito || true
 cask install virtualbox || true
 cask install vagrant || true
