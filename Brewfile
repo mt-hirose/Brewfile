@@ -45,7 +45,8 @@ cask install vagrant || true
 cask install sublime-text || true
 cask install phpstorm || true
 cask install eclipse-ide || true
-cask install unity3d || true
+#cask install unity3d || true
+cask install unity || true
 cask install cyberduck || true
 cask install the-unarchiver || true
 cask install imageoptim || true
