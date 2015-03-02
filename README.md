@@ -1,5 +1,3 @@
-# Brewfile
-Brewfile
 echo "# Brewfile" >> README.md
 git init
 git add README.md
