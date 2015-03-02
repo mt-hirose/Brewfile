@@ -2,11 +2,13 @@
 tap homebrew/versions || true
 tap phinze/homebrew-cask || true
 tap homebrew/binary || true
+tap science || true
 # Brew Update
 update || true
 # Brew Cask
 install brew-cask || true
 # Packages
+install boost || true
 install --disable-etcdir zsh || true
 install vim || true
 install jq || true
@@ -14,6 +16,15 @@ install curl || true
 install wget || true
 install dnsmasq || true
 install composer || true
+install opencv || true
+install ffmpeg || true
+install sox || true
+install gfortran || true
+install r || true
+install mysql || true
+install gnuplot || true
+install wget || true
+install postgresql || true
 # Cask Packages
 cask install iterm2 || true
 cask install alfred || true
@@ -42,3 +53,4 @@ cask install speedlimit || true
 cask install colors || true
 cask install sitesucker || true
 cask install google-japanese-ime || true
+cask install android-studio || true
