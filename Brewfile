@@ -118,6 +118,10 @@ install yuicompressor || brew upgrade yuicompressor || true
 install z || brew upgrade z || true
 install zsh || brew upgrade zsh || true
 install zsh-completions || brew upgrade zsh-completions || true
+install android-sdk || brew upgrade android-sdk || true
+install android-ndk || brew upgrade android-ndk || true
+install ant || brew upgrade ant || true
+
 # brew cask
 cask install alfred || cask upgrade alfred || true
 cask install diffmerge || cask upgrade diffmerge || true
@@ -175,4 +179,3 @@ cask install onyx || cask upgrade onyx || true
 cask alfred link
 # 不要なファイルを削除
 cleanup
-cask cleanup
