@@ -7,6 +7,8 @@ tap caskroom/cask || true
 tap jimbojsb/launchrocket || true
 # Brew Update
 update || true
+# Brew Cask
+install brew-cask || brew upgrade brew-cask || true
 # install package
 install ack || brew upgrade ack || true
 install apple-gcc42 || brew upgrade apple-gcc42 || true
@@ -15,7 +17,6 @@ install autoconf || brew upgrade autoconf || true
 install automake || brew upgrade automake || true
 install bash || brew upgrade bash || true
 install boost || brew upgrade boost || true
-install brew-cask || brew upgrade brew-cask || true
 install cairo || brew upgrade cairo || true
 install cloog || brew upgrade cloog || true
 install cmatrix || brew upgrade cmatrix || true
