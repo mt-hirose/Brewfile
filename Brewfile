@@ -1,10 +1,10 @@
 # Add Repository
 tap homebrew/versions || true
-tap caskroom/homebrew-cask || true
+tap caskroom/cask || true
 tap homebrew/binary || true
 tap homebrew/dupes || true
 tap homebrew/science || true
-tap caskroom/cask
+tap jimbojsb/launchrocket
 # Brew Update
 update || true
 # install package
@@ -134,7 +134,7 @@ cask install wireshark || cask upgrade wireshark || true
 cask install google-chrome || cask upgrade google-chrome || true
 cask install google-drive || cask upgrade google-drive || true
 cask install google-web-designer || cask upgrade google-web-designer || true
-#cask install keyremap4macbook || cask upgrade keyremap4macbook || true
+cask install keyremap4macbook || cask upgrade keyremap4macbook || true
 cask install sublime-text || cask upgrade sublime-text || true
 cask install skype || cask upgrade skype || true
 cask install skitch || cask upgrade skitch || true
@@ -165,6 +165,12 @@ cask install speedlimit || cask upgrade speedlimit || true
 cask install colors || cask upgrade colors || true
 cask install sitesucker || cask upgrade sitesucker || true
 cask install google-japanese-ime || cask upgrade google-japanese-ime || true
+cask install appcleaner || cask upgrade appcleaner || true
+cask install launchrocket || cask upgrade launchrocket || true
+cask install atom || cask upgrade atom || true
+cask install hyperswitch || cask upgrade hyperswitch || true
+cask install vmware-fusion || cask upgrade vmware-fusion || true
+cask install onyx || cask upgrade onyx || true
 ## for alfred
 cask alfred link
 # 不要なファイルを削除
