@@ -10,117 +10,117 @@ update || true
 # Brew Cask
 install brew-cask || brew upgrade brew-cask || true
 # install package
-install ack || brew upgrade ack || true
-install apple-gcc42 || brew upgrade apple-gcc42 || true
-install atk || brew upgrade atk || true
-install autoconf || brew upgrade autoconf || true
-install automake || brew upgrade automake || true
-install bash || brew upgrade bash || true
-install boost || brew upgrade boost || true
-install cairo || brew upgrade cairo || true
-install cloog || brew upgrade cloog || true
-install cmatrix || brew upgrade cmatrix || true
-install colordiff || brew upgrade colordiff || true
-install cscope || brew upgrade cscope || true
-install emacs || brew upgrade emacs || true
-install fontconfig || brew upgrade fontconfig || true
-install fontforge || brew upgrade fontforge || true
-install fortune || brew upgrade fortune || true
-install freetype || brew upgrade freetype || true
-install gdbm || brew upgrade gdbm || true
-install gdk-pixbuf || brew upgrade gdk-pixbuf || true
-install gettext || brew upgrade gettext || true
-install gfortran || brew upgrade gfortran || true
-install ghc || brew upgrade ghc || true
-install git || brew upgrade git || true
-install git-flow || brew upgrade git-flow || true
-install giter8 || brew upgrade giter8 || true
-install glib || brew upgrade glib || true
-install gmp || brew upgrade gmp || true
-install go --cross-compile-all || brew upgrade go || true
-install gobject-introspection || brew upgrade gobject-introspection || true
-install gradle || brew upgrade gradle || true
-install groovy || brew upgrade groovy || true
-install gtk+ || brew upgrade gtk+ || true
-install gtksourceview || brew upgrade gtksourceview || true
-install harfbuzz || brew upgrade harfbuzz || true
-install haskell-platform || brew upgrade haskell-platform || true
-install htop-osx || brew upgrade htop-osx || true
-install hub || brew upgrade hub || true
-install icu4c || brew upgrade icu4c || true
-install intltool || brew upgrade intltool || true
-install isl || brew upgrade isl || true
-install jmeter || brew upgrade jmeter || true
-install jpeg || brew upgrade jpeg || true
-install less || brew upgrade less || true
-install libevent || brew upgrade libevent || true
-install libffi || brew upgrade libffi || true
-install libmpc || brew upgrade libmpc || true
-install libpng || brew upgrade libpng || true
-install libtiff || brew upgrade libtiff || true
-install libtool || brew upgrade libtool || true
-install libyaml || brew upgrade libyaml || true
-install lv || brew upgrade lv || true
-install macvim || brew upgrade macvim || true
-install make || brew upgrade make || true
-install cmake || brew upgrade cmake || true
-install markdown || brew upgrade markdown || true
-install maven || brew upgrade maven || true
-install meld || brew upgrade meld || true
-install mercurial || brew upgrade mercurial || true
-install mpfr || brew upgrade mpfr || true
-install mysql || brew upgrade mysql || true
-install neon || brew upgrade neon || true
-install nkf || brew upgrade nkf || true
-install nmap || brew upgrade nmap || true
-install node || brew upgrade node || true
-install openssl || brew upgrade openssl || true
-install openssh || brew upgrade openssh || true
-install ossp-uuid || brew upgrade ossp-uuid || true
-install opencv || brew upgrade opencv || true
-install pango || brew upgrade pango || true
-install pcre || brew upgrade pcre || true
-install pixman || brew upgrade pixman || true
-install pkg-config || brew upgrade pkg-config || true
-install play || brew upgrade play || true
-install postgresql || brew upgrade postgresql || true
-install pow || brew upgrade pow || true
-install pstree || brew upgrade pstree || true
-install py2cairo || brew upgrade py2cairo || true
-install pygobject || brew upgrade pygobject || true
-install pygtk || brew upgrade pygtk || true
-install pygtksourceview || brew upgrade pygtksourceview || true
-install python || brew upgrade python || true
-install python3 || brew upgrade python3 || true
-install rarian || brew upgrade rarian || true
-install rbenv || brew upgrade rbenv || true
-install readline || brew upgrade readline || true
-install reattach-to-user-namespace || brew upgrade reattach-to-user-namespace || true
-install ruby-build || brew upgrade ruby-build || true
-install sbt || brew upgrade sbt || true
-install scala || brew upgrade scala || true
-install scons || brew upgrade scons || true
-install serf || brew upgrade serf || true
-install source-highlight || brew upgrade source-highlight || true
-install sqlite3 || brew upgrade sqlite3 || true
-install subversion || brew upgrade subversion || true
-install the_silver_searcher || brew upgrade the_silver_searcher || true
-install tig || brew upgrade tig || true
-install tmux || brew upgrade tmux || true
-install tomcat || brew upgrade tomcat || true
-install tree || brew upgrade tree || true
-install vim || brew upgrade vim || true
-install watch || brew upgrade watch || true
-install wget || brew upgrade wget || true
-install xctool || brew upgrade xctool || true
-install xz || brew upgrade xz || true
-install yuicompressor || brew upgrade yuicompressor || true
-install z || brew upgrade z || true
-install zsh || brew upgrade zsh || true
-install zsh-completions || brew upgrade zsh-completions || true
-install android-sdk || brew upgrade android-sdk || true
-install android-ndk || brew upgrade android-ndk || true
-install ant || brew upgrade ant || true
+install ack || true
+install apple-gcc42 || true
+install atk || true
+install autoconf || true
+install automake || true
+install bash || true
+install boost || true
+install cairo || true
+install cloog || true
+install cmatrix || true
+install colordiff || true
+install cscope || true
+install emacs || true
+install fontconfig || true
+install fontforge || true
+install fortune || true
+install freetype || true
+install gdbm || true
+install gdk-pixbuf || true
+install gettext || true
+install gfortran || true
+install ghc || true
+install git || true
+install git-flow || true
+install giter8 || true
+install glib || true
+install gmp || true
+install go --cross-compile-all || true
+install gobject-introspection || true
+install gradle || true
+install groovy || true
+install gtk+ || true
+install gtksourceview || true
+install harfbuzz || true
+install haskell-platform || true
+install htop-osx || true
+install hub || true
+install icu4c || true
+install intltool || true
+install isl || true
+install jmeter || true
+install jpeg || true
+install less || true
+install libevent || true
+install libffi || true
+install libmpc || true
+install libpng || true
+install libtiff || true
+install libtool || true
+install libyaml || true
+install lv || true
+install macvim || true
+install make || true
+install cmake || true
+install markdown || true
+install maven || true
+install meld || true
+install mercurial || true
+install mpfr || true
+install mysql || true
+install neon || true
+install nkf || true
+install nmap || true
+install node || true
+install openssl || true
+install openssh || true
+install ossp-uuid || true
+install opencv || true
+install pango || true
+install pcre pcre || true
+install pixman || true
+install pkg-config || true
+install play || true
+install postgresql || true
+install pow || true
+install pstree || true
+install py2cairo || true
+install pygobject || true
+install pygtk || true
+install pygtksourceview || true
+install python || true
+install python3 || true
+install rarian || true
+install rbenv || true
+install readline || true
+install reattach-to-user-namespace || true
+install ruby-build || true
+install sbt || true
+install scala || true
+install scons || true
+install serf || true
+install source-highlight || true
+install sqlite3 || true
+install subversion || true
+install the_silver_searcher || true
+install tig || true
+install tmux || true
+install tomcat || true
+install tree || true
+install vim || true
+install watch || true
+install wget || true
+install xctool || true
+install xz || true
+install yuicompressor || true
+install z || true
+install zsh || true
+install zsh-completions || true
+install android-sdk || true
+install android-ndk || true
+install ant || true
 # brew cask
 cask install alfred || cask upgrade alfred || true
 cask install diffmerge || cask upgrade diffmerge || true
