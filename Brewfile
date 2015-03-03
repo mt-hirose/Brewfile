@@ -1,9 +1,9 @@
 # Add Repository
 tap homebrew/versions || true
-tap caskroom/cask || true
 tap homebrew/binary || true
 tap homebrew/dupes || true
 tap homebrew/science || true
+tap caskroom/cask || true
 tap jimbojsb/launchrocket
 # Brew Update
 update || true
