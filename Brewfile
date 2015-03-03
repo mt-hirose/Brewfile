@@ -153,7 +153,7 @@ cask install xamarin-android || cask upgrade xamarin-android || true
 cask install xamarin-studio || cask upgrade xamarin-studio || true
 cask install virtualbox || cask upgrade virtualbox || true
 cask install vagrant || cask upgrade vagrant || true
-cask install mysql-workbench || cask upgrade mysql-workbench || true
+cask install mysqlworkbench || cask upgrade mysqlworkbench || true
 cask install iterm2 || cask upgrade iterm2 || true
 cask install phpstorm || cask upgrade phpstorm || true
 cask install eclipse-ide || cask upgrade eclipse-ide || true
