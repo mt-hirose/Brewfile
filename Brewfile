@@ -165,6 +165,8 @@ cask install speedlimit || cask upgrade speedlimit || true
 cask install colors || cask upgrade colors || true
 cask install sitesucker || cask upgrade sitesucker || true
 cask install google-japanese-ime || cask upgrade google-japanese-ime || true
+## for alfred
+cask alfred link
 # 不要なファイルを削除
 cleanup
 cask cleanup
