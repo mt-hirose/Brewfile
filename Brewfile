@@ -4,6 +4,7 @@ tap phinze/homebrew-cask || true
 tap homebrew/binary || true
 tap homebrew/dupes || true
 tap homebrew/science || true
+tap caskroom/cask
 # Brew Update
 update || true
 # install package
@@ -61,6 +62,8 @@ install libtool || brew upgrade libtool || true
 install libyaml || brew upgrade libyaml || true
 install lv || brew upgrade lv || true
 install macvim || brew upgrade macvim || true
+install make || brew upgrade make || true
+install cmake || brew upgrade cmake || true
 install markdown || brew upgrade markdown || true
 install maven || brew upgrade maven || true
 install meld || brew upgrade meld || true
@@ -72,7 +75,9 @@ install nkf || brew upgrade nkf || true
 install nmap || brew upgrade nmap || true
 install node || brew upgrade node || true
 install openssl || brew upgrade openssl || true
+install openssh || brew upgrade openssh || true
 install ossp-uuid || brew upgrade ossp-uuid || true
+install opencv || brew upgrade opencv || true
 install pango || brew upgrade pango || true
 install pcre || brew upgrade pcre || true
 install pixman || brew upgrade pixman || true
@@ -96,7 +101,7 @@ install scala || brew upgrade scala || true
 install scons || brew upgrade scons || true
 install serf || brew upgrade serf || true
 install source-highlight || brew upgrade source-highlight || true
-install sqlite || brew upgrade sqlite || true
+install sqlite3 || brew upgrade sqlite3 || true
 install subversion || brew upgrade subversion || true
 install the_silver_searcher || brew upgrade the_silver_searcher || true
 install tig || brew upgrade tig || true
@@ -141,6 +146,10 @@ cask install evernote || cask upgrade evernote || true
 cask install mendeley || cask upgrade mendeley || true
 cask install yorufukurou || cask upgrade yorufukurou || true
 cask install kobito || cask upgrade kobito || true
+cask install xamarin || cask upgrade xamarin || true
+cask install xamarin-ios || cask upgrade xamarin-ios || true
+cask install xamarin-android || cask upgrade xamarin-android || true
+cask install xamarin-studio || cask upgrade xamarin-studio || true
 cask install virtualbox || cask upgrade virtualbox || true
 cask install vagrant || cask upgrade vagrant || true
 cask install mysql-workbench || cask upgrade mysql-workbench || true
