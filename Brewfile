@@ -144,7 +144,7 @@ cask install bettertouchtool || cask upgrade bettertouchtool || true
 cask install dropbox || cask upgrade dropbox || true
 cask install firefox || cask upgrade firefox || true
 cask install evernote || cask upgrade evernote || true
-cask install mendeley || cask upgrade mendeley || true
+cask install mendeley-desktop || cask upgrade mendeley-desktop || true
 cask install yorufukurou || cask upgrade yorufukurou || true
 cask install kobito || cask upgrade kobito || true
 cask install xamarin || cask upgrade xamarin || true
