@@ -9,7 +9,6 @@ tap jimbojsb/launchrocket || true
 update || true
 # install package
 install ack || brew upgrade ack || true
-install ant || brew upgrade ant || true
 install apple-gcc42 || brew upgrade apple-gcc42 || true
 install atk || brew upgrade atk || true
 install autoconf || brew upgrade autoconf || true
@@ -121,7 +120,6 @@ install zsh-completions || brew upgrade zsh-completions || true
 install android-sdk || brew upgrade android-sdk || true
 install android-ndk || brew upgrade android-ndk || true
 install ant || brew upgrade ant || true
-
 # brew cask
 cask install alfred || cask upgrade alfred || true
 cask install diffmerge || cask upgrade diffmerge || true
