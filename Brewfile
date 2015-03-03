@@ -4,7 +4,7 @@ tap homebrew/binary || true
 tap homebrew/dupes || true
 tap homebrew/science || true
 tap caskroom/cask || true
-tap jimbojsb/launchrocket
+tap jimbojsb/launchrocket || true
 # Brew Update
 update || true
 # install package
