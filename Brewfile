@@ -91,6 +91,7 @@ install pygobject || brew upgrade pygobject || true
 install pygtk || brew upgrade pygtk || true
 install pygtksourceview || brew upgrade pygtksourceview || true
 install python || brew upgrade python || true
+install python3 || brew upgrade python3 || true
 install rarian || brew upgrade rarian || true
 install rbenv || brew upgrade rbenv || true
 install readline || brew upgrade readline || true
@@ -139,7 +140,7 @@ cask install skype || cask upgrade skype || true
 cask install skitch || cask upgrade skitch || true
 cask install sequel-pro || cask upgrade sequel-pro || true
 cask install bettertouchtool || cask upgrade bettertouchtool || true
-cask install bitcasa || cask upgrade bitcasa || true
+#cask install bitcasa || cask upgrade bitcasa || true
 cask install dropbox || cask upgrade dropbox || true
 cask install firefox || cask upgrade firefox || true
 cask install evernote || cask upgrade evernote || true
