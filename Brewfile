@@ -1,6 +1,6 @@
 # Add Repository
 tap homebrew/versions || true
-tap phinze/homebrew-cask || true
+tap caskroom/homebrew-cask || true
 tap homebrew/binary || true
 tap homebrew/dupes || true
 tap homebrew/science || true
@@ -133,7 +133,7 @@ cask install wireshark || cask upgrade wireshark || true
 cask install google-chrome || cask upgrade google-chrome || true
 cask install google-drive || cask upgrade google-drive || true
 cask install google-web-designer || cask upgrade google-web-designer || true
-cask install keyremap4macbook || cask upgrade keyremap4macbook || true
+#cask install keyremap4macbook || cask upgrade keyremap4macbook || true
 cask install sublime-text || cask upgrade sublime-text || true
 cask install skype || cask upgrade skype || true
 cask install skitch || cask upgrade skitch || true
