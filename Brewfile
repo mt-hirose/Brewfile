@@ -1,126 +1,127 @@
+# Brew Update
+update
+upgrade
 # Add Repository
+tap caskroom/cask || true
 tap homebrew/versions || true
 tap homebrew/binary || true
 tap homebrew/dupes || true
 tap homebrew/science || true
-tap caskroom/cask || true
 tap jimbojsb/launchrocket || true
-# Brew Update
-update || true
 # Brew Cask
 install brew-cask || brew upgrade brew-cask || true
 # install package
-install ack || true
-install apple-gcc42 || true
-install atk || true
-install autoconf || true
-install automake || true
-install bash || true
-install boost || true
-install cairo || true
-install cloog || true
-install cmatrix || true
-install colordiff || true
-install cscope || true
-install emacs || true
-install fontconfig || true
-install fontforge || true
-install fortune || true
-install freetype || true
-install gdbm || true
-install gdk-pixbuf || true
-install gettext || true
-install gfortran || true
-install ghc || true
-install git || true
-install git-flow || true
-install giter8 || true
-install glib || true
-install gmp || true
-install go --cross-compile-all || true
-install gobject-introspection || true
-install gradle || true
-install groovy || true
-install gtk+ || true
-install gtksourceview || true
-install harfbuzz || true
-install haskell-platform || true
-install htop-osx || true
-install hub || true
-install icu4c || true
-install intltool || true
-install isl || true
-install jmeter || true
-install jpeg || true
-install less || true
-install libevent || true
-install libffi || true
-install libmpc || true
-install libpng || true
-install libtiff || true
-install libtool || true
-install libyaml || true
-install lv || true
-install macvim || true
-install make || true
-install cmake || true
-install markdown || true
-install maven || true
-install meld || true
-install mercurial || true
-install mpfr || true
-install mysql || true
-install neon || true
-install nkf || true
-install nmap || true
-install node || true
-install openssl || true
-install openssh || true
-install ossp-uuid || true
-install opencv || true
-install pango || true
-install pcre pcre || true
-install pixman || true
-install pkg-config || true
-install play || true
-install postgresql || true
-install pow || true
-install pstree || true
-install py2cairo || true
-install pygobject || true
-install pygtk || true
-install pygtksourceview || true
-install python || true
-install python3 || true
-install rarian || true
-install rbenv || true
-install readline || true
-install reattach-to-user-namespace || true
-install ruby-build || true
-install sbt || true
-install scala || true
-install scons || true
-install serf || true
-install source-highlight || true
-install sqlite3 || true
-install subversion || true
-install the_silver_searcher || true
-install tig || true
-install tmux || true
-install tomcat || true
-install tree || true
-install vim || true
-install watch || true
-install wget || true
-install xctool || true
-install xz || true
-install yuicompressor || true
-install z || true
-install zsh || true
-install zsh-completions || true
-install android-sdk || true
-install android-ndk || true
-install ant || true
+install ack
+install apple-gcc42
+install atk
+install autoconf
+install automake
+install bash
+install boost
+install cairo
+install cloog
+install cmatrix
+install colordiff
+install cscope
+install emacs
+install fontconfig
+install fontforge
+install fortune
+install freetype
+install gdbm
+install gdk-pixbuf
+install gettext
+install gfortran
+install ghc
+install git
+install git-flow
+install giter8
+install glib
+install gmp
+install go --cross-compile-all
+install gobject-introspection
+install gradle
+install groovy
+install gtk+
+install gtksourceview
+install harfbuzz
+install haskell-platform
+install htop-osx
+install hub
+install icu4c
+install intltool
+install isl
+install jmeter
+install jpeg
+install less
+install libevent
+install libffi
+install libmpc
+install libpng
+install libtiff
+install libtool
+install libyaml
+install lv
+install macvim
+install make
+install cmake
+install markdown
+install maven
+install meld
+install mercurial
+install mpfr
+install mysql
+install neon
+install nkf
+install nmap
+install node
+install openssl
+install openssh
+install ossp-uuid
+install opencv
+install pango
+install pcre
+install pixman
+install pkg-config
+install play
+install postgresql
+install pow
+install pstree
+install py2cairo
+install pygobject
+install pygtk
+install pygtksourceview
+install python
+install python3
+install rarian
+install rbenv
+install readline
+install reattach-to-user-namespace
+install ruby-build
+install sbt
+install scala
+install scons
+install serf
+install source-highlight
+install sqlite3
+install subversion
+install the_silver_searcher
+install tig
+install tmux
+install tomcat
+install tree
+install vim
+install watch
+install wget
+install xctool
+install xz
+install yuicompressor
+install z
+install zsh
+install zsh-completions
+install android-sdk
+install android-ndk
+install ant
 # brew cask
 cask install alfred || cask upgrade alfred || true
 cask install diffmerge || cask upgrade diffmerge || true
@@ -137,7 +138,7 @@ cask install wireshark || cask upgrade wireshark || true
 cask install google-chrome || cask upgrade google-chrome || true
 cask install google-drive || cask upgrade google-drive || true
 cask install google-web-designer || cask upgrade google-web-designer || true
-#cask install keyremap4macbook || cask upgrade keyremap4macbook || true
+cask install Karabiner || cask upgrade Karabiner || true
 cask install sublime-text || cask upgrade sublime-text || true
 cask install skype || cask upgrade skype || true
 cask install skitch || cask upgrade skitch || true
