@@ -33,7 +33,7 @@ install freetype
 install gdbm
 install gdk-pixbuf
 install gettext
-install gfortran
+#install gfortran
 install ghc
 install git
 install git-flow
