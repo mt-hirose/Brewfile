@@ -13,6 +13,7 @@ install brew-cask || brew upgrade brew-cask || true
 # install package
 install ack
 install apple-gcc42
+install gcc
 install gcc47
 install atk
 install autoconf
