@@ -123,6 +123,7 @@ install android-sdk
 install android-ndk
 install ant
 # brew cask
+cask install adobe-reader || cask upgrade adobe-reader || true
 cask install alfred || cask upgrade alfred || true
 cask install diffmerge || cask upgrade diffmerge || true
 cask install rstudio || cask upgrade rstudio || true
@@ -138,7 +139,7 @@ cask install wireshark || cask upgrade wireshark || true
 cask install google-chrome || cask upgrade google-chrome || true
 cask install google-drive || cask upgrade google-drive || true
 cask install google-web-designer || cask upgrade google-web-designer || true
-cask install Karabiner || cask upgrade Karabiner || true
+cask install karabiner || cask upgrade karabiner || true
 cask install sublime-text || cask upgrade sublime-text || true
 cask install skype || cask upgrade skype || true
 cask install skitch || cask upgrade skitch || true
