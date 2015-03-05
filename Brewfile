@@ -7,6 +7,7 @@ tap homebrew/versions || true
 tap homebrew/binary || true
 tap homebrew/dupes || true
 tap homebrew/science || true
+tap homebrew/x11 || true
 tap jimbojsb/launchrocket || true
 # Brew Cask
 install brew-cask || brew upgrade brew-cask || true
