@@ -26,7 +26,7 @@ install cloog
 install cmatrix
 install colordiff
 install cscope
-install --japanese --cocoa --with-gnutls -v emacs
+install emacs --japanese --cocoa --with-gnutls -v 
 install fontconfig
 install fontforge
 install fortune
