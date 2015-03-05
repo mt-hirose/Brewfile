@@ -47,7 +47,7 @@ install groovy
 install gtk+
 install gtksourceview
 install harfbuzz
-install haskell-platform
+#install haskell-platform
 install htop-osx
 install hub
 install icu4c
