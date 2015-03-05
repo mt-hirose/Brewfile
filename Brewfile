@@ -20,6 +20,7 @@ install autoconf
 install automake
 install bash
 install boost
+install cabal-platform
 install cairo
 install cloog
 install cmatrix
