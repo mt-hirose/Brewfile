@@ -20,7 +20,6 @@ install autoconf
 install automake
 install bash
 install boost
-install cabal-install
 install cairo
 install cloog
 install cmatrix
@@ -139,6 +138,7 @@ cask install virtualbox || cask upgrade virtualbox || true
 cask install xquartz || cask upgrade xquartz || true
 cask install xmind || cask upgrade xmind || true
 cask install wireshark || cask upgrade wireshark || true
+cask install ghc || cask upgrade ghc || true
 cask install google-chrome || cask upgrade google-chrome || true
 cask install google-drive || cask upgrade google-drive || true
 cask install google-web-designer || cask upgrade google-web-designer || true
