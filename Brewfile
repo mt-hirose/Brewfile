@@ -1,6 +1,5 @@
 # Brew Update
 update
-upgrade
 # Add Repository
 tap caskroom/cask || true
 tap homebrew/versions || true
@@ -9,7 +8,7 @@ tap homebrew/dupes || true
 tap homebrew/science || true
 tap homebrew/x11 || true
 tap jimbojsb/launchrocket || true
-# Brew Cask
+# Brew Cask install
 install brew-cask || brew upgrade brew-cask || true
 # install package
 install ack
@@ -31,11 +30,12 @@ install fontconfig
 install fontforge
 install fortune
 install freetype
+install gcc
 install gdbm
 install gdk-pixbuf
 install gettext
 #install gfortran
-install ghc
+install ghc --build-from-source --cc=gcc
 install git
 install git-flow
 install giter8
@@ -48,7 +48,7 @@ install groovy
 install gtk+
 install gtksourceview
 install harfbuzz
-#install haskell-platform
+install haskell-platform --cc=gcc
 install htop-osx
 install hub
 install icu4c
@@ -115,7 +115,7 @@ install tomcat
 install tree
 install vim
 install watch
-install wget
+install wget || true
 install xctool
 install xz
 install yuicompressor
@@ -180,7 +180,9 @@ cask install atom || cask upgrade atom || true
 cask install hyperswitch || cask upgrade hyperswitch || true
 cask install vmware-fusion || cask upgrade vmware-fusion || true
 cask install onyx || cask upgrade onyx || true
-## for alfred
-cask alfred link
+#update
+cask update
 # 不要なファイルを削除
 cleanup
+## for alfred
+cask alfred link
