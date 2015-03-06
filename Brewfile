@@ -9,7 +9,7 @@ tap homebrew/science || true
 tap homebrew/x11 || true
 tap jimbojsb/launchrocket || true
 # Brew Cask install
-install brew-cask
+install brew-cask || true
 # install package
 install ack
 install apple-gcc42
