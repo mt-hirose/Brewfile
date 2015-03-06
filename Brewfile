@@ -9,12 +9,11 @@ tap homebrew/science || true
 tap homebrew/x11 || true
 tap jimbojsb/launchrocket || true
 # Brew Cask install
-install brew-cask || true
+install brew-cask || brew upgrade brew-cask || true
 # install package
 install ack
 install apple-gcc42
 install gcc
-install gcc47
 install atk
 install autoconf
 install automake
@@ -139,7 +138,6 @@ cask install virtualbox || cask upgrade virtualbox || true
 cask install xquartz || cask upgrade xquartz || true
 cask install xmind || cask upgrade xmind || true
 cask install wireshark || cask upgrade wireshark || true
-cask install ghc || cask upgrade ghc || true
 cask install google-chrome || cask upgrade google-chrome || true
 cask install google-drive || cask upgrade google-drive || true
 cask install google-web-designer || cask upgrade google-web-designer || true
@@ -181,7 +179,7 @@ cask install hyperswitch || cask upgrade hyperswitch || true
 cask install vmware-fusion || cask upgrade vmware-fusion || true
 cask install onyx || cask upgrade onyx || true
 #update
-cask update
+#cask update
 # 不要なファイルを削除
 cleanup
 ## for alfred
