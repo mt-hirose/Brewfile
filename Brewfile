@@ -89,7 +89,7 @@ install pcre || true
 install pixman || true
 install pkg-config || true
 install typesafe-activator
-install postgresql || true
+install postgresql
 install pow || true
 install pstree || true
 install py2cairo || true
