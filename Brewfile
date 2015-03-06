@@ -38,6 +38,7 @@ install gdk-pixbuf
 install gettext
 #install gfortran
 install ghc --build-from-source --cc=gcc-4.9
+install cobal-install
 install git
 install git-flow
 install giter8
