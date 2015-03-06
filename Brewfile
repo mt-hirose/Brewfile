@@ -90,7 +90,7 @@ install pixman || true
 install pkg-config || true
 install typesafe-activator
 install postgresql
-install pow || true
+install pow
 install pstree || true
 install py2cairo || true
 install pygobject || true
