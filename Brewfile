@@ -96,8 +96,6 @@ install py2cairo || true
 install pygobject || true
 install pygtk || true
 install pygtksourceview || true
-install python || true
-install python3 || true
 install rarian || true
 install readline || true
 install ruby-build || true
@@ -183,6 +181,8 @@ cask install atom || cask upgrade atom || true
 cask install hyperswitch || cask upgrade hyperswitch || true
 cask install vmware-fusion || cask upgrade vmware-fusion || true
 cask install onyx || cask upgrade onyx || true
+cask install python || cask upgrade python || true
+cask install python3 || cask upgrade python3 || true
 #update
 #cask update
 # 不要なファイルを削除
