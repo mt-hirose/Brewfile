@@ -105,7 +105,6 @@ install reattach-to-user-namespace
 install sbt
 install scala
 install scons
-install serf
 install source-highlight
 install sqlite3
 install subversion
@@ -183,6 +182,7 @@ cask install vmware-fusion || cask upgrade vmware-fusion || true
 cask install onyx || cask upgrade onyx || true
 cask install python || cask upgrade python || true
 cask install python3 || cask upgrade python3 || true
+cask install serf || cask upgrade serf || true
 #update
 #cask update
 # 不要なファイルを削除
