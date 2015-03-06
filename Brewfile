@@ -30,11 +30,12 @@ install fontforge
 install fortune
 install freetype
 install gcc
+install gcc49
 install gdbm
 install gdk-pixbuf
 install gettext
 #install gfortran
-install ghc --build-from-source --cc=gcc
+install ghc --build-from-source --cc=gcc-4.9
 install git
 install git-flow
 install giter8
@@ -47,7 +48,7 @@ install groovy
 install gtk+
 install gtksourceview
 install harfbuzz
-install haskell-platform --cc=gcc
+install haskell-platform --cc=gcc-4.9
 install htop-osx
 install hub
 install icu4c
