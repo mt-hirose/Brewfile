@@ -24,6 +24,8 @@ install cloog
 install cmatrix
 install colordiff
 install cscope
+install lua
+install ctags
 install emacs --japanese --cocoa --with-gnutls 
 install fontconfig
 install fontforge
@@ -97,10 +99,11 @@ install pygtksourceview
 install python
 install python3
 install rarian
-install rbenv
 install readline
-install reattach-to-user-namespace
 install ruby-build
+install rbenv
+install rbenv-gemset
+install reattach-to-user-namespace
 install sbt
 install scala
 install scons
