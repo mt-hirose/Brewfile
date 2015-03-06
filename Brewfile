@@ -51,7 +51,6 @@ install groovy
 install gtk+
 install gtksourceview
 install harfbuzz
-install haskell-platform --cc=gcc-4.9
 install htop-osx
 install hub
 install icu4c
@@ -132,6 +131,7 @@ install ant
 # brew cask
 cask install adobe-reader || cask upgrade adobe-reader || true
 cask install alfred || cask upgrade alfred || true
+cask install haskell-platform || cask upgrade haskell-platform || true
 cask install diffmerge || cask upgrade diffmerge || true
 cask install rstudio || cask upgrade rstudio || true
 cask install vagrant || cask upgrade vagrant || true
