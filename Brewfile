@@ -88,7 +88,7 @@ install pango || true
 install pcre || true
 install pixman || true
 install pkg-config || true
-install play || true
+install typesafe-activator || true
 install postgresql || true
 install pow || true
 install pstree || true
