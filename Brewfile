@@ -1,5 +1,5 @@
 # Brew Update
-update
+#update
 # Add Repository
 tap caskroom/cask || true
 tap homebrew/versions || true
