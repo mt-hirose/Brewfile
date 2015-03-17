@@ -1,5 +1,5 @@
 # Brew Update
-#update
+brew update
 # Add Repository
 tap caskroom/cask || true
 tap homebrew/versions || true
@@ -126,7 +126,7 @@ install android-sdk
 install android-ndk
 install ant
 # 不要なファイルを削除
-cleanup
+brew cleanup
 # brew cask
 cask install adobe-reader || cask upgrade adobe-reader || true
 cask install alfred || cask upgrade alfred || true
