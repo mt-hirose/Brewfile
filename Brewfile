@@ -1,50 +1,145 @@
-# Brew Update
-#brew update
-# Add Repository
-tap caskroom/cask || true
-tap homebrew/versions || true
-tap homebrew/binary || true
-tap homebrew/dupes || true
-tap homebrew/science || true
-tap homebrew/x11 || true
-tap jimbojsb/launchrocket || true
-# Brew Cask install
-install brew-cask || brew upgrade brew-cask || true
-# install package
-install ack
+
+# tap repositories and their packages
+
+## caskroom/cask
+tap caskroom/cask
+install brew-cask
+cask install adobe-reader
+cask install alfred
+cask install android-studio
+cask install appcleaner
+cask install atom
+cask install bettertouchtool
+cask install colors
+cask install cyberduck
+cask install dash
+cask install diffmerge
+cask install dropbox
+cask install eclipse-ide
+cask install evernote
+cask install firefox
+cask install ghc
+cask install google-chrome
+cask install google-drive
+cask install google-japanese-ime
+cask install google-web-designer
+cask install haskell-platform
+cask install hyperswitch
+cask install imageoptim
+cask install iterm2
+cask install karabiner
+cask install kobito
+cask install launchrocket
+cask install mendeley-desktop
+cask install mysqlworkbench
+cask install onyx
+cask install p4merge
+cask install phpstorm
+cask install python
+cask install python3
+cask install rstudio
+cask install sequel-pro
+cask install serf
+cask install sitesucker
+cask install skitch
+cask install skype
+cask install sourcetree
+cask install speedlimit
+cask install sublime-text
+cask install the-unarchiver
+cask install unity
+cask install vagrant
+cask install virtualbox
+cask install vlc
+cask install vmware-fusion
+cask install wireshark
+cask install xamarin-android
+cask install xamarin-ios
+cask install xamarin-studio
+cask install xamarin
+cask install xmind
+cask install xquartz
+
+## homebrew/binary
+tap homebrew/binary
+
+## homebrew/dupes
+tap homebrew/dupes
 install apple-gcc42
-install gcc
+install less
+install make
+install openssh
+
+## homebrew/python
+tap homebrew/python
+install numpy
+
+## homebrew/science
+tap homebrew/science
+install opencv
+
+## homebrew/versions
+tap homebrew/versions
+install cloog-ppl015
+install cloog018
+install gcc49
+install gmp4
+install isl011
+install libmpc08
+install mpfr2
+install ppl011
+
+## homebrew/x11
+tap homebrew/x11
+install meld
+
+## jimbojsb/launchrocket
+tap jimbojsb/launchrocket
+
+## phinze/cask
+tap phinze/cask
+
+## rcmdnk/file
+tap rcmdnk/file
+install brew-file
+
+# Other Homebrew packages
+install ack
+install android-ndk
+install android-sdk
+install ant
 install atk
 install autoconf
 install automake
 install bash
 install boost
+install cabal-install
 install cairo
 install cloog
+install cmake
 install cmatrix
 install colordiff
 install cscope
-install lua
 install ctags
-install emacs --japanese --cocoa --with-gnutls
+install czmq
+install eigen
+install emacs --cocoa --with-gnutls
 install fontconfig
 install fontforge
 install fortune
 install freetype
 install gcc
-install gcc49
 install gdbm
 install gdk-pixbuf
 install gettext
-#install gfortran
-install ghc --build-from-source --cc=gcc-4.9
-install cabal-install
+install ghc
 install git
 install git-flow
 install giter8
 install glib
 install gmp
-install go --cross-compile-all
+install gnutls
+install go --with-cc-all
 install gobject-introspection
 install gradle
 install groovy
@@ -54,65 +149,65 @@ install harfbuzz
 install htop-osx
 install hub
 install icu4c
+install ilmbase
 install intltool
 install isl
 install jmeter
 install jpeg
-install less
 install libevent
 install libffi
 install libmpc
 install libpng
+install libtasn1
 install libtiff
 install libtool
 install libyaml
+install lua
 install lv
 install macvim
-install make
-install cmake
 install markdown
 install maven
-install meld
 install mercurial
 install mpfr
 install mysql
 install neon
+install nettle
 install nkf
 install nmap
 install node
+install openexr
 install openssl
-install openssh
 install ossp-uuid
-install opencv
 install pango
 install pcre
 install pixman
 install pkg-config
-install typesafe-activator
 install postgresql
-#install pow
+install pow
 install pstree
 install py2cairo
 install pygobject
 install pygtk
 install pygtksourceview
+install python
 install rarian
-install readline
-install ruby-build
 install rbenv
 install rbenv-gemset
+install readline
 install reattach-to-user-namespace
+install ruby-build
 install sbt
 install scala
 install scons
 install source-highlight
-install sqlite3
+install sqlite
 install subversion
 install the_silver_searcher
 install tig
 install tmux
 install tomcat
 install tree
+install typesafe-activator
 install vim
 install watch
 install wget
@@ -120,74 +215,15 @@ install xctool
 install xz
 install yuicompressor
 install z
+install zeromq
 install zsh
 install zsh-completions
-install android-sdk
-install android-ndk
-install ant
-# 不要なファイルを削除
-#brew cleanup
-# brew cask
-cask install adobe-reader || cask upgrade adobe-reader || true
-cask install alfred || cask upgrade alfred || true
-cask install haskell-platform || cask upgrade haskell-platform || true
-cask install diffmerge || cask upgrade diffmerge || true
-cask install rstudio || cask upgrade rstudio || true
-cask install vagrant || cask upgrade vagrant || true
-cask install vlc || cask upgrade vlc || true
-cask install dash || cask upgrade dash || true
-cask install p4merge || cask upgrade p4merge || true
-cask install sourcetree || cask upgrade sourcetree || true
-cask install virtualbox || cask upgrade virtualbox || true
-cask install xquartz || cask upgrade xquartz || true
-cask install xmind || cask upgrade xmind || true
-cask install wireshark || cask upgrade wireshark || true
-cask install google-chrome || cask upgrade google-chrome || true
-cask install google-drive || cask upgrade google-drive || true
-cask install google-web-designer || cask upgrade google-web-designer || true
-cask install karabiner || cask upgrade karabiner || true
-cask install sublime-text || cask upgrade sublime-text || true
-cask install skype || cask upgrade skype || true
-cask install skitch || cask upgrade skitch || true
-cask install sequel-pro || cask upgrade sequel-pro || true
-cask install bettertouchtool || cask upgrade bettertouchtool || true
-#cask install bitcasa || cask upgrade bitcasa || true
-cask install dropbox || cask upgrade dropbox || true
-cask install firefox || cask upgrade firefox || true
-cask install evernote || cask upgrade evernote || true
-cask install mendeley-desktop || cask upgrade mendeley-desktop || true
-#cask install yorufukurou || cask upgrade yorufukurou || true
-cask install kobito || cask upgrade kobito || true
-cask install xamarin || cask upgrade xamarin || true
-cask install xamarin-ios || cask upgrade xamarin-ios || true
-cask install xamarin-android || cask upgrade xamarin-android || true
-cask install xamarin-studio || cask upgrade xamarin-studio || true
-cask install virtualbox || cask upgrade virtualbox || true
-cask install vagrant || cask upgrade vagrant || true
-cask install mysqlworkbench || cask upgrade mysqlworkbench || true
-cask install iterm2 || cask upgrade iterm2 || true
-cask install phpstorm || cask upgrade phpstorm || true
-cask install eclipse-ide || cask upgrade eclipse-ide || true
-cask install unity || cask upgrade unity || true
-cask install cyberduck || cask upgrade cyberduck || true
-cask install the-unarchiver || cask upgrade the-unarchiver || true
-cask install imageoptim || cask upgrade imageoptim || true
-cask install speedlimit || cask upgrade speedlimit || true
-cask install colors || cask upgrade colors || true
-cask install sitesucker || cask upgrade sitesucker || true
-cask install google-japanese-ime || cask upgrade google-japanese-ime || true
-cask install appcleaner || cask upgrade appcleaner || true
-cask install launchrocket || cask upgrade launchrocket || true
-cask install atom || cask upgrade atom || true
-cask install hyperswitch || cask upgrade hyperswitch || true
-cask install vmware-fusion || cask upgrade vmware-fusion || true
-cask install onyx || cask upgrade onyx || true
-cask install python || cask upgrade python || true
-cask install python3 || cask upgrade python3 || true
-cask install serf || cask upgrade serf || true
-#update
-#cask_upgrade
-# 不要なファイルを削除
-#cask_cleanup
-## for alfred
-#cask alfred link
+
+# App Store applications
+appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore Keynote
+appstore Numbers
+appstore Pages
+appstore Xcode
