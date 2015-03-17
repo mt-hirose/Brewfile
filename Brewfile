@@ -186,7 +186,7 @@ cask install python || cask upgrade python || true
 cask install python3 || cask upgrade python3 || true
 cask install serf || cask upgrade serf || true
 #update
-cask upgrade
+cask_upgrade
 # 不要なファイルを削除
 cask cleanup
 ## for alfred
