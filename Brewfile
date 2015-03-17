@@ -188,6 +188,6 @@ cask install serf || cask upgrade serf || true
 #update
 cask_upgrade
 # 不要なファイルを削除
-cask cleanup
+cask_cleanup
 ## for alfred
 cask alfred link
