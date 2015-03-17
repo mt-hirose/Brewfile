@@ -125,6 +125,8 @@ install zsh-completions
 install android-sdk
 install android-ndk
 install ant
+# 不要なファイルを削除
+cleanup
 # brew cask
 cask install adobe-reader || cask upgrade adobe-reader || true
 cask install alfred || cask upgrade alfred || true
@@ -184,8 +186,8 @@ cask install python || cask upgrade python || true
 cask install python3 || cask upgrade python3 || true
 cask install serf || cask upgrade serf || true
 #update
-#cask update
+cask upgrade
 # 不要なファイルを削除
-cleanup
+cask cleanup
 ## for alfred
 cask alfred link
