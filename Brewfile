@@ -1,227 +1,222 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install adobe-reader
-cask install alfred
-cask install android-studio
-cask install appcleaner
-cask install atom
-cask install bettertouchtool
-cask install colors
-cask install cyberduck
-cask install dash
-cask install diffmerge
-cask install dropbox
-cask install eclipse-ide
-cask install evernote
-cask install firefox
-cask install ghc
-cask install google-chrome
-cask install google-drive
-cask install google-japanese-ime
-cask install google-web-designer
-cask install haskell-platform
-cask install hyperswitch
-cask install imageoptim
-cask install iterm2
-cask install karabiner
-cask install kobito
-cask install launchrocket
-cask install mendeley-desktop
-cask install mysqlworkbench
-cask install onyx
-cask install p4merge
-cask install phpstorm
-cask install python
-cask install python3
-cask install rstudio
-cask install sequel-pro
-cask install serf
-cask install sitesucker
-cask install skitch
-cask install skype
-cask install sourcetree
-cask install speedlimit
-cask install sublime-text
-cask install the-unarchiver
-cask install unity
-cask install vagrant
-cask install virtualbox
-cask install vlc
-cask install vmware-fusion
-cask install wireshark
-cask install xamarin-android
-cask install xamarin-ios
-cask install xamarin-studio
-cask install xamarin
-cask install xmind
-cask install xquartz
+brew brew-cask
+cask adobe-reader
+cask alfred
+cask android-studio
+cask appcleaner
+cask atom
+cask bettertouchtool
+cask cyberduck
+cask dash
+cask diffmerge
+cask dropbox
+cask eclipse-ide
+cask evernote
+cask firefox
+cask ghc
+cask google-chrome
+cask google-drive
+cask google-japanese-ime
+cask google-web-designer
+cask haskell-platform
+cask hyperswitch
+cask imageoptim
+cask iterm2
+cask java
+cask karabiner
+cask launchrocket
+cask mendeley-desktop
+cask mysqlworkbench
+cask onyx
+cask p4merge
+cask phpstorm
+cask python
+cask python3
+cask rstudio
+cask sequel-pro
+cask serf
+cask sitesucker
+cask skitch
+cask skype
+cask sourcetree
+cask speedlimit
+cask sublime-text
+cask the-unarchiver
+cask unity
+cask vagrant
+cask virtualbox
+cask vlc
+cask vmware-fusion
+cask wings3d
+cask wireshark
+cask xamarin-android
+cask xamarin-ios
+cask xamarin-studio
+cask xamarin
+cask xmind
+cask xquartz
 
-## homebrew/binary
 tap homebrew/binary
 
-## homebrew/dupes
 tap homebrew/dupes
-install apple-gcc42
-install less
-install make
-install openssh
+brew apple-gcc42
+brew less
+brew make
+brew openssh
 
-## homebrew/python
 tap homebrew/python
-install numpy
+brew numpy
 
-## homebrew/science
 tap homebrew/science
-install opencv
+brew opencv
 
-## homebrew/versions
 tap homebrew/versions
-install cloog-ppl015
-install cloog018
-install gcc49
-install gmp4
-install isl011
-install libmpc08
-install mpfr2
-install ppl011
+brew cloog-ppl015
+brew cloog018
+brew gcc49
+brew gmp4
+brew isl011
+brew libmpc08
+brew mpfr2
+brew ppl011
 
-## homebrew/x11
 tap homebrew/x11
-install meld
+brew meld
 
-## jimbojsb/launchrocket
 tap jimbojsb/launchrocket
 
-## phinze/cask
-tap phinze/cask
-
-## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 # Other Homebrew packages
-install ack
-install android-ndk
-install android-sdk
-install ant
-install atk
-install autoconf
-install automake
-install bash
-install boost
-install cabal-install
-install cairo
-install cloog
-install cmake
-install cmatrix
-install colordiff
-install cscope
-install ctags
-install czmq
-install eigen
-install emacs --cocoa --with-gnutls
-install fontconfig
-install fontforge
-install fortune
-install freetype
-install gcc
-install gdbm
-install gdk-pixbuf
-install gettext
-install ghc
-install git
-install git-flow
-install giter8
-install glib
-install gmp
-install gnutls
-install go --with-cc-all
-install gobject-introspection
-install gradle
-install groovy
-install gtk+
-install gtksourceview
-install harfbuzz
-install htop-osx
-install hub
-install icu4c
-install ilmbase
-install intltool
-install isl
-install jmeter
-install jpeg
-install libevent
-install libffi
-install libmpc
-install libpng
-install libtasn1
-install libtiff
-install libtool
-install libyaml
-install lua
-install lv
-install macvim
-install markdown
-install maven
-install mercurial
-install mpfr
-install mysql
-install neon
-install nettle
-install nkf
-install nmap
-install node
-install openexr
-install openssl
-install ossp-uuid
-install pango
-install pcre
-install pixman
-install pkg-config
-install postgresql
-install pow
-install pstree
-install py2cairo
-install pygobject
-install pygtk
-install pygtksourceview
-install python
-install rarian
-install rbenv
-install rbenv-gemset
-install readline
-install reattach-to-user-namespace
-install ruby-build
-install sbt
-install scala
-install scons
-install source-highlight
-install sqlite
-install subversion
-install the_silver_searcher
-install tig
-install tmux
-install tomcat
-install tree
-install typesafe-activator
-install vim
-install watch
-install wget
-install xctool
-install xz
-install yuicompressor
-install z
-install zeromq
-install zsh
-install zsh-completions
+brew ack
+brew android-ndk
+brew android-sdk
+brew ant
+brew atk
+brew autoconf
+brew automake
+brew bash
+brew boost
+brew c-ares
+brew cabal-install
+brew cairo
+brew cloog
+brew cmake
+brew cmatrix
+brew colordiff
+brew cscope
+brew ctags
+brew czmq
+brew d-bus
+brew eigen
+brew emacs
+brew fontconfig
+brew fontforge
+brew fortune
+brew freetype
+brew gcc
+brew gdbm
+brew gdk-pixbuf
+brew geoip
+brew gettext
+brew ghc
+brew git
+brew git-flow
+brew giter8
+brew glib
+brew gmp
+brew gnome-icon-theme
+brew gnutls
+brew go
+brew gobject-introspection
+brew gradle
+brew groovy
+brew gsettings-desktop-schemas
+brew gtk+
+brew gtk+3
+brew gtk-mac-integration
+brew gtksourceview
+brew gtksourceview3
+brew harfbuzz
+brew hicolor-icon-theme
+brew htop-osx
+brew hub
+brew icu4c
+brew ilmbase
+brew intltool
+brew isl
+brew jmeter
+brew jpeg
+brew libepoxy
+brew libevent
+brew libffi
+brew libgcrypt
+brew libgpg-error
+brew libmpc
+brew libpng
+brew libsodium
+brew libtasn1
+brew libtiff
+brew libtool
+brew libyaml
+brew lua
+brew lv
+brew macvim
+brew makedepend
+brew markdown
+brew maven
+brew mercurial
+brew mpfr
+brew mysql
+brew neon
+brew nettle
+brew nkf
+brew nmap
+brew node --with-full-icu
+brew openexr
+brew openssl
+brew ossp-uuid
+brew pango
+brew pcre
+brew perl-build
+brew pixman
+brew pkg-config
+brew plenv
+brew postgresql
+brew pow
+brew py2cairo
+brew pyenv
+brew pygobject
+brew pygobject3
+brew pygtk
+brew python
+brew python3
+brew r
+brew rbenv
+brew readline
+brew ruby-build
+brew sqlite
+brew texinfo
+brew wireshark
+brew xz
+brew zeromq
+
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask colors (!)
+#cask kicad-library (!)
+#cask kobito (!)
 
 # App Store applications
 appstore GarageBand
 appstore iMovie
+appstore Install OS X El Capitan
+appstore Install OS X Yosemite
 appstore iPhoto
 appstore Keynote
 appstore Numbers
